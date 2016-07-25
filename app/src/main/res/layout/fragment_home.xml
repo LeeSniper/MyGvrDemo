@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabLayout_home"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/colorPrimary"
+            app:tabIndicatorHeight="2dp"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@color/colorPrimary"
+            app:tabTextColor="@color/colorTextTab"
+            app:tabPaddingEnd="25dp"
+            app:tabPaddingStart="25dp"
+            android:background="@android:color/white">
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/tabItem_home1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home_tab0"/>
+            <android.support.design.widget.TabItem
+                android:id="@+id/tabItem_home2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home_tab1"/>
+            <android.support.design.widget.TabItem
+                android:id="@+id/tabItem_home3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home_tab2"/>
+        </android.support.design.widget.TabLayout>
+        <ImageButton
+            android:id="@+id/btn_choose_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_arrow_drop_down"
+            android:background="@android:color/white" />
+
+    </RelativeLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

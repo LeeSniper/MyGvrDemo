@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MyGvrDemo</string>
+    <string name="hint_acount">手机号/邮箱</string>
+    <string name="hint_password">密码</string>
+    <string name="login">登录</string>
+    <string name="forget_passward">忘记密码？</string>
+    <string name="register_new">注册账号</string>
+    <string name="register">注册</string>
+    <string name="hint_account2">邮箱/手机号</string>
+    <string name="hint_username">用户名</string>
+    <string name="home_tab0">线性布局</string>
+    <string name="home_tab1">表格布局</string>
+    <string name="home_tab2">瀑布流布局</string>
+    <string name="home_tab3">iOS</string>
+    <string name="home_tab4">产品</string>
+    <string name="home_tab5">设计</string>
+    <string name="home_tab6">工具资源</string>
+    <string name="home_tab7">阅读</string>
+    <string name="home_tab8">后端</string>
+</resources>
