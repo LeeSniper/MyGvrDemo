@@ -1,1 +1,3 @@
-include ':app', ':audio', ':base', ':common', ':commonwidget', ':controller', ':panowidget', ':videowidget'
+include ':app', ':audio', ':base', ':common', ':commonwidget', ':controller', ':panowidget', ':videowidget', ':Commom-lib'
+
+project(':Commom-lib').projectDir = new File('Commom/commomtest')
